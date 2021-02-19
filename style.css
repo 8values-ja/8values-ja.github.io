@@ -27,7 +27,7 @@ p.value-description {
 }
 p.question {
     margin: 16pt auto;
-    color: #333333;
+    color: #444444;
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: normal;
     width: 70%;
@@ -44,7 +44,7 @@ p.question {
 
 }
 h1 {
-    color: #222222;
+    color: #444444;
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 55pt;
     text-align: center;
@@ -53,7 +53,7 @@ h1 {
     margin-bottom: 0pt;
 }
 h2 {
-    color: #333333;
+    color: #444444;
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 25pt;
     line-height: 1em;
@@ -65,6 +65,7 @@ li {
     text-indent: 16pt;
 }
 a {
+    color: #eeeeee;
     font-family: inherit;
 }
 img.center {
@@ -78,7 +79,7 @@ img.center {
     font-family: 'M PLUS 1p', sans-serif;
     border: none;
     border-radius: 8pt;
-    color: white;
+    color: #444444;
     padding: 8pt;
     width: 50%;
     min-width: 500pt;
@@ -94,7 +95,7 @@ img.center {
     font-family: 'M PLUS 1p', sans-serif;
     border: none;
     border-radius: 8pt;
-    color: white;
+    color: #444444;
     padding: 8pt;
     width: 10%;
     min-width: 100pt;
