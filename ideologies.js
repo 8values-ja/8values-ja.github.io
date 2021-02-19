@@ -54,7 +54,7 @@ ideologies = [
         }
     },
     {
-        "name": "スターリン主義（Stalinism）/<br/>毛沢東主義（Maoism）",
+        "name": "スターリン主義（Stalinism）/毛沢東主義（Maoism）",
         "stats": {
             "econ": 100,
             "dipl": 20,
