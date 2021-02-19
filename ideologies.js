@@ -1,6 +1,7 @@
 ideologies = [
-    {
-        "name": "無政府共産主義（Anarcho-Communism）",
+    {    
+		"name": "無政府共産主義",
+        "name_english": "Anarcho-Communism",
         "stats": {
             "econ": 100,
             "dipl": 50,
@@ -9,7 +10,8 @@ ideologies = [
         }
     },
     {
-        "name": "リバタリアン共産主義（Libertarian Communism）",
+		"name": "リバタリアン共産主義",
+		"name_english": "Libertarian Communism",
         "stats": {
             "econ": 100,
             "dipl": 70,
@@ -18,7 +20,8 @@ ideologies = [
         }
     },
     {
-        "name": "トロツキー主義（Trotskyism）",
+	    "name": "トロツキー主義",
+        "name_english": "Trotskyism",
         "stats": {
             "econ": 100,
             "dipl": 100,
@@ -27,7 +30,8 @@ ideologies = [
         }
     },
     {
-        "name": "マルクス主義（Marxism）",
+	    "name": "マルクス主義",
+        "name_english": "Marxism",
         "stats": {
             "econ": 100,
             "dipl": 70,
@@ -36,7 +40,8 @@ ideologies = [
         }
     },
     {
-        "name": "デ・レオン主義（De Leonis",
+	    "name": "デ・レオン主義
+        "name_english": "De Leonis",
         "stats": {
             "econ": 100,
             "dipl": 30,
@@ -45,7 +50,8 @@ ideologies = [
         }
     },
     {
-        "name": "レーニン主義（Leninism）",
+	    "name": "レーニン主義",
+        "name_english": "Leninism",
         "stats": {
             "econ": 100,
             "dipl": 40,
@@ -54,7 +60,8 @@ ideologies = [
         }
     },
     {
-        "name": "スターリン主義（Stalinism）/毛沢東主義（Maoism）",
+	    "name": "スターリン主義／毛沢東主義",
+        "name_english": "Stalinism/Maoism",
         "stats": {
             "econ": 100,
             "dipl": 20,
@@ -63,7 +70,8 @@ ideologies = [
         }
     },
     {
-        "name": "宗教的共産主義（Religious Communism）",
+		"name": "宗教的共産主義",
+		"name_english": "Religious Communism",
         "stats": {
             "econ": 100,
             "dipl": 50,
@@ -72,7 +80,8 @@ ideologies = [
         }
     },
     {
-        "name": "国家社会主義（State Socialism）",
+			"name": "国家社会主義",
+        "name_english": "State Socialism",
         "stats": {
             "econ": 80,
             "dipl": 30,
@@ -81,7 +90,9 @@ ideologies = [
         }
     },
     {
-        "name": "神権主義的社会主義（Theocratic Socialism）",
+
+		    "name": "神権主義的社会主義",
+        "name_english": "Theocratic Socialism",
         "stats": {
             "econ": 80,
             "dipl": 50,
@@ -89,8 +100,8 @@ ideologies = [
             "scty": 20
         }
     },
-    {
-        "name": "宗教的社会主義（Religious Socialism）",
+    {    "name": "宗教的社会主義",
+        "name_english": "Religious Socialism",
         "stats": {
             "econ": 80,
             "dipl": 50,
@@ -98,8 +109,8 @@ ideologies = [
             "scty": 20
         }
     },
-    {
-        "name": "民主社会主義者（Democratic Socialism）",
+    {    "name": "民主社会主義者",
+        "name_english": "Democratic Socialism",
         "stats": {
             "econ": 80,
             "dipl": 50,
@@ -107,8 +118,8 @@ ideologies = [
             "scty": 80
         }
     },
-    {
-        "name": "Revolutionary Socialism",
+    {   "name": "革命主義的社会主義",
+        "name_english": "Revolutionary Socialism",
         "stats": {
             "econ": 80,
             "dipl": 20,
@@ -116,8 +127,8 @@ ideologies = [
             "scty": 70
         }
     },
-    {
-        "name": "Libertarian Socialism",
+    {    "name": "リバタリアン社会主義",
+        "name_english": "Libertarian Socialism",
         "stats": {
             "econ": 80,
             "dipl": 80,
@@ -125,8 +136,8 @@ ideologies = [
             "scty": 80
         }
     },
-    {
-        "name": "Anarcho-Syndicalism",
+    {    "name": "無政府組合主義",
+        "name_english": "Anarcho-Syndicalism",
         "stats": {
             "econ": 80,
             "dipl": 50,
@@ -134,8 +145,8 @@ ideologies = [
             "scty": 80
         }
     },
-    {
-        "name": "Left-Wing Populism",
+    {    "name": "左翼ポピュリズム",
+        "name_english": "Left-Wing Populism",
         "stats": {
             "econ": 60,
             "dipl": 40,
@@ -143,8 +154,8 @@ ideologies = [
             "scty": 70
         }
     },
-    {
-        "name": "Theocratic Distributism",
+    {    "name": "神権的分産主義",
+        "name_english": "Theocratic Distributism",
         "stats": {
             "econ": 60,
             "dipl": 40,
@@ -152,8 +163,8 @@ ideologies = [
             "scty": 20
         }
     },
-    {
-        "name": "Distributism",
+    {    "name": "分産主義",
+        "name_english": "Distributism",
         "stats": {
             "econ": 60,
             "dipl": 50,
@@ -161,8 +172,8 @@ ideologies = [
             "scty": 20
         }
     },
-    {
-        "name": "Social Liberalism",
+    {    "name": "社会自由主義",
+        "name_english": "Social Liberalism",
         "stats": {
             "econ": 60,
             "dipl": 60,
@@ -170,8 +181,8 @@ ideologies = [
             "scty": 80
         }
     },
-    {
-        "name": "Christian Democracy",
+    {    "name": "キリスト教民主主義",
+        "name_english": "Christian Democracy",
         "stats": {
             "econ": 60,
             "dipl": 60,
@@ -179,8 +190,8 @@ ideologies = [
             "scty": 30
         }
     },
-    {
-        "name": "Social Democracy",
+    {    "name": "社会民主主義",
+        "name_english": "Social Democracy",
         "stats": {
             "econ": 60,
             "dipl": 70,
@@ -188,8 +199,8 @@ ideologies = [
             "scty": 80
         }
     },
-    {
-        "name": "Progressivism",
+    {    "name": "進歩主義",
+        "name_english": "Progressivism",
         "stats": {
             "econ": 60,
             "dipl": 80,
@@ -197,8 +208,8 @@ ideologies = [
             "scty": 100
         }
     },
-    {
-        "name": "Anarcho-Mutualism",
+    {    "name": "無政府相互主義",
+        "name_english": "Anarcho-Mutualism",
         "stats": {
             "econ": 60,
             "dipl": 50,
@@ -206,8 +217,8 @@ ideologies = [
             "scty": 70
         }
     },
-    {
-        "name": "National Totalitarianism",
+    {    "name": "一国全体主義",
+        "name_english": "National Totalitarianism",
         "stats": {
             "econ": 50,
             "dipl": 20,
@@ -215,8 +226,8 @@ ideologies = [
             "scty": 50
         }
     },
-    {
-        "name": "Global Totalitarianism",
+    {    "name": "超国家全体主義",
+        "name_english": "Global Totalitarianism",
         "stats": {
             "econ": 50,
             "dipl": 80,
@@ -224,8 +235,8 @@ ideologies = [
             "scty": 50
         }
     },
-    {
-        "name": "Technocracy",
+    {    "name": "技術官僚制主義",
+        "name_english": "Technocracy",
         "stats": {
             "econ": 60,
             "dipl": 60,
@@ -233,8 +244,8 @@ ideologies = [
             "scty": 70
         }
     },
-    {
-        "name": "中道主義（Centrist）",
+    {    "name": "中道主義",
+        "name_english": "中道主義（Centrist）",
         "stats": {
             "econ": 50,
             "dipl": 50,
@@ -242,8 +253,8 @@ ideologies = [
             "scty": 50
         }
     },
-    {
-        "name": "Liberalism",
+    {    "name": "自由主義（リベラリズム）",
+        "name_english": "Liberalism",
         "stats": {
             "econ": 50,
             "dipl": 60,
@@ -251,8 +262,8 @@ ideologies = [
             "scty": 60
         }
     },
-    {
-        "name": "Religious Anarchism",
+    {    "name": "宗教的アナキズム",
+        "name_english": "Religious Anarchism",
         "stats": {
             "econ": 50,
             "dipl": 50,
@@ -260,8 +271,8 @@ ideologies = [
             "scty": 20
         }
     },
-    {
-        "name": "Right-Wing Populism",
+    {    "name": "右翼ポピュリズム",
+        "name_english": "Right-Wing Populism",
         "stats": {
             "econ": 40,
             "dipl": 30,
@@ -269,8 +280,8 @@ ideologies = [
             "scty": 30
         }
     },
-    {
-        "name": "Moderate Conservatism",
+    {    "name": "中道保守主義",
+        "name_english": "Moderate Conservatism",
         "stats": {
             "econ": 40,
             "dipl": 40,
@@ -278,8 +289,8 @@ ideologies = [
             "scty": 30
         }
     },
-    {
-        "name": "Reactionary",
+    {    "name": "復古主義",
+        "name_english": "Reactionary",
         "stats": {
             "econ": 40,
             "dipl": 40,
@@ -287,8 +298,8 @@ ideologies = [
             "scty": 10
         }
     },
-    {
-        "name": "Social Libertarianism",
+    {    "name": "左派リバタリアニズム",
+        "name_english": "Social Libertarianism",
         "stats": {
             "econ": 60,
             "dipl": 70,
@@ -296,8 +307,8 @@ ideologies = [
             "scty": 70
         }
     },
-    {
-        "name": "Libertarianism",
+    {    "name": "自由至上主義（リバタリアニズム）",
+        "name_english": "Libertarianism",
         "stats": {
             "econ": 40,
             "dipl": 60,
@@ -305,8 +316,8 @@ ideologies = [
             "scty": 60
         }
     },
-    {
-        "name": "Anarcho-Egoism",
+    {    "name": "エゴイスト・アナキズム",
+        "name_english": "Anarcho-Egoism",
         "stats": {
             "econ": 40,
             "dipl": 50,
@@ -314,8 +325,8 @@ ideologies = [
             "scty": 50
         }
     },
-    {
-        "name": "Nazism",
+    {    "name": "ナチズム",
+        "name_english": "Nazism",
         "stats": {
             "econ": 40,
             "dipl": 0,
@@ -323,8 +334,8 @@ ideologies = [
             "scty": 5
         }
     },
-    {
-        "name": "Autocracy",
+    {    "name": "専制主義",
+        "name_english": "Autocracy",
         "stats": {
             "econ": 50,
             "dipl": 20,
@@ -332,8 +343,8 @@ ideologies = [
             "scty": 50
         }
     },
-    {
-        "name": "Fascism",
+    {   "name": "ファシズム",
+        "name_english": "Fascism",
         "stats": {
             "econ": 40,
             "dipl": 20,
@@ -341,8 +352,9 @@ ideologies = [
             "scty": 20
         }
     },
-    {
-        "name": "Capitalist Fascism",
+    { 
+    "name": "資本主義的ファシズム",
+        "name_english": "Capitalist Fascism",
         "stats": {
             "econ": 20,
             "dipl": 20,
@@ -351,7 +363,8 @@ ideologies = [
         }
     },
     {
-        "name": "Conservatism",
+    "name": "保守主義",
+        "name_english": "Conservatism",
         "stats": {
             "econ": 30,
             "dipl": 40,
@@ -359,8 +372,8 @@ ideologies = [
             "scty": 20
         }
     },
-    {
-        "name": "Neo-Liberalism",
+    {    "name": "新自由主義",
+        "name_english": "Neo-Liberalism",
         "stats": {
             "econ": 30,
             "dipl": 30,
@@ -368,8 +381,8 @@ ideologies = [
             "scty": 60
         }
     },
-    {
-        "name": "Classical Liberalism",
+    {    "name": "古典的自由主義",
+        "name_english": "Classical Liberalism",
         "stats": {
             "econ": 30,
             "dipl": 60,
@@ -377,8 +390,8 @@ ideologies = [
             "scty": 80
         }
     },
-    {
-        "name": "Authoritarian Capitalism",
+    {    "name": "権威主義的資本主義",
+        "name_english": "Authoritarian Capitalism",
         "stats": {
             "econ": 20,
             "dipl": 30,
@@ -386,8 +399,8 @@ ideologies = [
             "scty": 40
         }
     },
-    {
-        "name": "State Capitalism",
+    {    "name": "国家資本主義",
+        "name_english": "State Capitalism",
         "stats": {
             "econ": 20,
             "dipl": 50,
@@ -395,8 +408,8 @@ ideologies = [
             "scty": 50
         }
     },
-    {
-        "name": "Neo-Conservatism",
+    {    "name": "新保守主義",
+        "name_english": "Neo-Conservatism",
         "stats": {
             "econ": 20,
             "dipl": 20,
@@ -404,8 +417,8 @@ ideologies = [
             "scty": 20
         }
     },
-    {
-        "name": "Fundamentalism",
+    {    "name": "市場原理主義",
+        "name_english": "Fundamentalism",
         "stats": {
             "econ": 20,
             "dipl": 30,
@@ -414,7 +427,8 @@ ideologies = [
         }
     },
     {
-        "name": "Libertarian Capitalism",
+    "name": "右派リバタリアニズム",
+        "name_english": "Libertarian Capitalism",
         "stats": {
             "econ": 20,
             "dipl": 50,
@@ -423,7 +437,8 @@ ideologies = [
         }
     },
     {
-        "name": "Market Anarchism",
+    "name": "市場無政府主義",
+        "name_english": "Market Anarchism",
         "stats": {
             "econ": 20,
             "dipl": 50,
@@ -431,8 +446,9 @@ ideologies = [
             "scty": 50
         }
     },
-    {
-        "name": "Objectivism",
+    {    "name": "客観主義（オブジェクティビズム）",
+
+        "name_english": "Objectivism",
         "stats": {
             "econ": 10,
             "dipl": 50,
@@ -440,8 +456,8 @@ ideologies = [
             "scty": 40
         }
     },
-    {
-        "name": "Totalitarian Capitalism",
+    {    "name": "ウルトラ資本主義",
+        "name_english": "Totalitarian Capitalism",
         "stats": {
             "econ": 0,
             "dipl": 30,
@@ -449,8 +465,9 @@ ideologies = [
             "scty": 50
         }
     },
-    {
-        "name": "Ultra-Capitalism",
+    {    "name": "全体主義的資本主義",
+
+        "name_english": "Ultra-Capitalism",
         "stats": {
             "econ": 0,
             "dipl": 40,
@@ -458,8 +475,8 @@ ideologies = [
             "scty": 50
         }
     },
-    {
-        "name": "Anarcho-Capitalism",
+    {    "name": "無政府資本主義",
+        "name_english": "Anarcho-Capitalism",
         "stats": {
             "econ": 0,
             "dipl": 50,
