@@ -1,5 +1,8 @@
 # 8values-ja.github.io
 
-日本語版8valuesは8つの価値観に基づき、あなたの政治思想を診断するサービスです。[8values](https://8values.github.io/)を翻訳・ローカライズすることによってつくられています。公式版のローカライゼーション計画の進行に応じて、将来的には削除する予定です。
-<br /><br />
-8values-ja is a Japanese translation/localisation of [8values](https://8values.github.io/) (based on Master branch, 19 February 2021). Minor changes will be made for the sake of clarity. This project will likely be deleted when the official localisation becomes available. 8values is under MIT License.
+日本語版8valuesは8つの価値観に基づき、あなたの政治思想を診断する<a href="https://8values.github.io/index.html" target="_blank">8values</a>を翻訳・ローカライズしたものです。現在、公式版も多言語対応を視野に入れて開発が続けられていますが、あまり進展が思わしくないのが現状です。公式版が日本語対応し次第、こちらのプロジェクトは凍結ないし削除する予定です。</p>
+<p>8values-ja(日本語版8values) is a translation/localisation of <a href="https://8values.github.io/index.html" target="_blank">8values</a>. We are planning to delete 8values-ja when (if?) the official localisation becomes available.
+  
+ # LICENSE
+<p>公式版8valueはMIT Licenseに基づいてに公開されており、「無制限(\"without restriction\")」に、「ソフトウェアの複製を使用、複写、変更、結合、掲載、頒布、サブライセンス、および/または販売する (\"use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software\")」ことが認められています。日本語版8valuesも、同MIT License下にあります。</p>
+<p>8values is licensed under the MIT License, which permits "without restriction" the rights to "use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software". 8values-ja is also under the same license.</p>
