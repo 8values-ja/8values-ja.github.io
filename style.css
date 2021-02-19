@@ -17,11 +17,11 @@ p {
     color: #444444;
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 20pt;
-    line-height: 1.2;
+    line-height: 1.4;
     margin-left: 2em;
+    margin-right: 4em;
 }
 p.value-description {
-    text-indent: -16pt;
     margin-left: 3em;
 }
 p.question {
