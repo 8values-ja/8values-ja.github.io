@@ -130,13 +130,11 @@ function setLabel(val,ary) {
         dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
         if (dist < ideodist) {
             ideology = ideologies[i].name
-		ideology_desc = ideologies[i].original
             ideodist = dist
         }
     }
     document.getElementById("ideology-label").innerHTML = ideology
-    document.getElementById("ideology-label_desc").innerHTML = ideology_desc
-	
+
 
     function createImage(src, x, y, w, h) {
         img = new Image ()
