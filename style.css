@@ -1,5 +1,5 @@
 html {
-    background-color: #555555;
+    background-color: #bbbbbb;
     padding: 0px;
 }
 body {
@@ -20,6 +20,7 @@ p {
     line-height: 1;
     margin-left: 2em;
     margin-right: 4em;
+    margin:0, 1.5em, 1em,2em;
 }
 p.value-description {
     margin-left: 3em;
