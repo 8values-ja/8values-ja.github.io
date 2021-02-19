@@ -1,74 +1,59 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:300,400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>8values Results</title>
+<title>診断結果｜日本語版</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
-<script>
-  version = "Test Edition #1" //Remember to update this before making changes to the test itself!
-</script>
+<meta http-equiv="content-language" content="ja">	
 </head>
+
 <script type="application/javascript"
         src="ideologies.js">
 </script>
 
 <body>
-<h1>8values</h1>
+<h1>日本語版8values</h1>
 <hr>
 
-<h1>Results</h1>
+<h1>診断結果</h1>
 
-<h2>Economic Axis: <span class="weight-300" id="economic-label"></span></h2>
+<h2>「経済」軸：<span class="weight-300" id="economic-label"></span></h2>
 <div class="axis">
     <img id="img-equality" src="value_images/equality.svg" height="128pt"/>
     <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
     <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
     <img id="img-wealth" src="value_images/wealth.svg" height="128pt"/>
 </div>
-<h2>Diplomatic Axis: <span class="weight-300" id="diplomatic-label"></span></h2>
+<h2>「外交」軸：<span class="weight-300" id="diplomatic-label"></span></h2>
 <div class="axis">
     <img id="img-might" src="value_images/might.svg" height="128pt"/>
     <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
     <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
     <img id="img-peace" src="value_images/peace.svg" height="128pt"/>
 </div>
-<h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
+<h2>「国家」軸：<span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
     <img id="img-liberty" src="value_images/liberty.svg" height="128pt"/>
     <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
     <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
     <img id="img-authority" src="value_images/authority.svg" height="128pt"/>
 </div>
-<h2>Societal Axis: <span class="weight-300" id="society-label"></span></h2>
+<h2>「社会」軸：<span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
     <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
     <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
     <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
     <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
 </div>
-<h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
-<p>Ideological matching is a work in progress, and is much less accurate than the values and axes.</p>
-<p>You can send these results by copying and pasting the URL at the top of the page or using the image below. Think your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism. </p>
+<h2>もっとも近い思想：<span class="weight-300" id="ideology-label"></span></h2>
+<p>あなたに近い政治思想の診断はやや精度が低いため、紹介程度にお考えください。</p>
+<p>このページのURLをコピー、またはページ下部の画像を保存することで、診断結果をシェアできます。</p>
 <hr/>
 <img src="" id="banner">
-<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
-<!-- Website visit statistics - no personal information is collected! -->
-<script type="text/javascript">
-var sc_project=11325211;
-var sc_invisible=1;
-var sc_security="fd9f0659";
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="web stats"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
-stats"></a></div></noscript>
+<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">戻る</button> <br>
+
 <script>
     function getQueryVariable(variable)
     {
@@ -91,10 +76,10 @@ stats"></a></div></noscript>
         }
     }
 
-    econArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"]
-    diplArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
-    govtArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
-    sctyArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+    econArray = ["共産主義","社会主義","社会主義寄り","中道","市場重視","資本主義","自由放任主義"]
+    diplArray = ["コスモポリタン","国際派","穏健派","中立","愛国者","民族主義","排外主義"]
+    govtArray = ["無政府主義","自由至上主義","リベラル","中立","国家統制主義","権威主義","全体主義"]
+    sctyArray = ["革命主義","進歩主義","進歩重視","中立","伝統重視","伝統主義","復古主義"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -117,14 +102,14 @@ stats"></a></div></noscript>
     authority = (100 - liberty ).toFixed(1)
     tradition = (100 - progress).toFixed(1)
 
-    setBarValue("equality", equality)
-    setBarValue("wealth", wealth)
-    setBarValue("peace", peace)
-    setBarValue("might", might)
-    setBarValue("liberty", liberty)
-    setBarValue("authority", authority)
-    setBarValue("progress", progress)
-    setBarValue("tradition", tradition)
+    setBarValue("経済", equality)
+    setBarValue("市場", wealth)
+    setBarValue("世界", peace)
+    setBarValue("国力", might)
+    setBarValue("自由", liberty)
+    setBarValue("権威", authority)
+    setBarValue("革新", progress)
+    setBarValue("伝統", tradition)
 
     document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
     document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
