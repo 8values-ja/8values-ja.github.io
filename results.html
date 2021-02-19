@@ -84,6 +84,36 @@
     govtArray = ["無政府主義","自由至上主義","リベラル","中立","国家主義","権威主義","全体主義"]
     sctyArray = ["革命主義","進歩主義","進歩重視","中立","伝統重視","伝統主義","復古主義"]
 
+function setLabel(val,ary) {
+        if (val > 100) { return "" } else
+        if (val > 90) { return ary[0] } else
+        if (val > 75) { return ary[1] } else
+        if (val > 60) { return ary[2] } else
+        if (val >= 40) { return ary[3] } else
+        if (val >= 25) { return ary[4] } else
+        if (val >= 10) { return ary[5] } else
+        if (val >= 0) { return ary[6] } else
+        	{return ""}
+    }
+
+    equality  = getQueryVariable("e")
+    peace     = getQueryVariable("d")
+    liberty   = getQueryVariable("g")
+    progress  = getQueryVariable("s")
+    wealth    = (100 - equality).toFixed(1)
+    might     = (100 - peace   ).toFixed(1)
+    authority = (100 - liberty ).toFixed(1)
+    tradition = (100 - progress).toFixed(1)
+
+    setBarValue("equality", equality)
+    setBarValue("wealth", wealth)
+    setBarValue("peace", peace)
+    setBarValue("might", might)
+    setBarValue("liberty", liberty)
+    setBarValue("authority", authority)
+    setBarValue("progress", progress)
+    setBarValue("tradition", tradition)
+
     document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
     document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
     document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
@@ -159,10 +189,10 @@
         ctx.fillStyle="#9c27b0"
         ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
         ctx.fillStyle="#222222"
-        ctx.font="700 75px M+PLUS+1p"
+        ctx.font="700 55px Montserrat"
         ctx.textAlign="left"
-        ctx.fillText("8values", 20, 90)
-        ctx.font="42px M+PLUS+1p"
+        ctx.fillText("日本語版8values", 20, 90)
+        ctx.font="45px Montserrat"
         ctx.fillText(ideology, 20, 140)
 
         ctx.textAlign="left"
@@ -176,8 +206,8 @@
         if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
 
-        ctx.font="300 25px M+PLUS+1p"
-        ctx.fillText("8values.github.io", 780, 60)
+        ctx.font="300 30px Montserrat"
+        ctx.fillText("8values-jp.github.io", 780, 60)
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
         ctx.fillText("「経済」軸: " + document.getElementById("economic-label").innerHTML, 400, 175)
