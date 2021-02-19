@@ -60,6 +60,14 @@ h2 {
     margin-top: 2em;
     margin-bottom: 0pt;
 }
+h2.results {
+    color: #444444;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 40pt;
+    line-height: 1em;
+    margin-top: 25pt;
+    margin-bottom: 0pt;
+}
 li {
     font-size: 16pt;
     text-indent: 16pt;
