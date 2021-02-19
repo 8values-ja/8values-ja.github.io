@@ -18,7 +18,7 @@ p {
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 20pt;
     line-height: 1.5;
-    margin:0 2em 0em 1.5em;
+    margin:0 2em 0.5em 1.5em;
 }
 p.value-description {
     text-indent: -1em;
