@@ -1,5 +1,5 @@
 html {
-    background-color: #bbbbbb;
+    background-color: #555555;
     padding: 0px;
 }
 body {
@@ -7,7 +7,7 @@ body {
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #ECEDEE;
+    background-color: #dddddd;
     border-color: #eeeeee;
     border-left-style: solid;
     border-right-style: solid;
@@ -17,7 +17,7 @@ p {
     color: #444444;
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 20pt;
-    line-height: 1.4;
+    line-height: 1;
     margin-left: 2em;
     margin-right: 4em;
 }
