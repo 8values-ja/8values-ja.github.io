@@ -51,7 +51,7 @@
     <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
 </div>
 <h2 class="results">あなたにもっとも近い思想：<br/><span class="weight-300" id="ideology-label"></span></h2>
-<p>英語名：<span class="weight-300" id="ideology-label_eng"></span>。<!--<span class="weight-300" id="ideology-description"></span>--><br>この機能は開発中のため、紹介程度にお考えください。</p>
+<p>英語名：<span class="weight-300" id="ideology-label_eng"></span>。<!--<span class="weight-300" id="ideology-description"></span>--><br/>この機能は開発中のため、紹介程度にお考えください。</p>
 <p>このページのURLをコピー、またはページ下部の画像を保存することで、診断結果をシェアできます。</p>
 <hr/>
 <img src="" id="banner">
@@ -120,6 +120,7 @@ function setLabel(val,ary) {
     document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
 
     ideology = ""
+	ideology_eng = ""
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
@@ -130,13 +131,11 @@ function setLabel(val,ary) {
         if (dist < ideodist) {
             ideology = ideologies[i].name
 		ideology_eng = ideologies[i].name_english
-//		ideology_desc = ideologies[i].disc
             ideodist = dist
         }
     }
     document.getElementById("ideology-label").innerHTML = ideology
 	document.getElementById("ideology-label_eng").innerHTML = ideology_eng
-//	document.getElementById("ideology-description").innerHTML = ideology_desc
 
 	
 
