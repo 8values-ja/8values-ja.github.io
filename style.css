@@ -18,11 +18,11 @@ p {
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 20pt;
     line-height: 1.2;
-    margin-bottom: 20pt;
+    margin-left: 40pt;
 }
 p.value-description {
     text-indent: -16pt;
-    margin-left: 40pt;
+    margin-left: 80pt;
 }
 p.question {
     margin: 16pt auto;
