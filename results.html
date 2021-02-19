@@ -84,7 +84,7 @@
     govtArray = ["無政府主義","自由至上主義","リベラル","中立","国家統制主義","権威主義","全体主義"]
     sctyArray = ["革命主義","進歩主義","進歩重視","中立","伝統重視","伝統主義","復古主義"]
 
-    function setLabel(val,ary) {
+function setLabel(val,ary) {
         if (val > 100) { return "" } else
         if (val > 90) { return ary[0] } else
         if (val > 75) { return ary[1] } else
@@ -189,10 +189,10 @@
         ctx.fillStyle="#9c27b0"
         ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
         ctx.fillStyle="#222222"
-        ctx.font="700 75px Montserrat"
+        ctx.font="700 80px Montserrat"
         ctx.textAlign="left"
         ctx.fillText("8values", 20, 90)
-        ctx.font="42px Montserrat"
+        ctx.font="50px Montserrat"
         ctx.fillText(ideology, 20, 140)
 
         ctx.textAlign="left"
@@ -206,14 +206,14 @@
         if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
 
-        ctx.font="300 25px M+PLUS+1p"
-        ctx.fillText("8values-ja.github.io", 780, 60)
+        ctx.font="300 30px Montserrat"
+        ctx.fillText("8values.github.io", 780, 60)
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
-        ctx.fillText("「経済」軸: " + document.getElementById("economic-label").innerHTML, 400, 175)
-        ctx.fillText("「外交」軸: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
-        ctx.fillText("「国家」軸: " + document.getElementById("state-label").innerHTML, 400, 415)
-        ctx.fillText("「社会」軸: " + document.getElementById("society-label").innerHTML, 400, 535)
+        ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
+        ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
+        ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
+        ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
 
         document.getElementById("banner").src = c.toDataURL();
     }
