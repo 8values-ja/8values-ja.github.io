@@ -120,7 +120,6 @@ function setLabel(val,ary) {
     document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
 
     ideology = ""
-	ideology_eng = ""
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
@@ -130,13 +129,10 @@ function setLabel(val,ary) {
         dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
         if (dist < ideodist) {
             ideology = ideologies[i].name
-	    ideology_eng = ideologies[i].name_english
             ideodist = dist
         }
     }
     document.getElementById("ideology-label").innerHTML = ideology
-//document.getElementById("ideology-label_eng").innerHTML = ideology_eng
-
 	
 
     function createImage(src, x, y, w, h) {
