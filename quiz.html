@@ -42,7 +42,7 @@
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
-        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+        document.getElementById("question-number").innerHTML = "問 " + (qn + 1) + "（全" + (questions.length) + "問）";
         if (prev_answer == null) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';
