@@ -17,12 +17,13 @@ p {
     color: #444444;
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 20pt;
-    line-height: 1;
-    margin:0 1em 0em 2em;
+    line-height: 1.5;
+    margin:0 2em 0em 1.5em;
 }
 p.value-description {
     text-indent: -1em;
     margin-left: 3em;
+    line-height: 1.2;
 }
 p.question {
     margin: 16pt auto;
