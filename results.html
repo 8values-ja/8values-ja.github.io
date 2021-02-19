@@ -2,13 +2,13 @@
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&:wght@300;400;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>診断結果｜日本語版</title>
+<title>診断結果｜日本語版8values</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
 <meta http-equiv="content-language" content="ja">
 <script>
-  version = "Test Edition #1" //Remember to update this before making changes to the test itself!
+  version = "ver. ja.210219" //Remember to update this before making changes to the test itself!
 </script>
 </head>
 
@@ -50,8 +50,8 @@
     <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
     <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
 </div>
-<h2>もっとも近い思想：<span class="weight-300" id="ideology-label"></span></h2>
-<p>「もっとも近い思想」は開発中の機能のため、紹介程度にお考えください。</p>
+<h2>あなたにもっとも近い思想：<span class="weight-300" id="ideology-label"></span></h2>
+<p>この機能は開発中のため、紹介程度にお考えください。</p>
 <p>このページのURLをコピー、またはページ下部の画像を保存することで、診断結果をシェアできます。</p>
 <hr/>
 <img src="" id="banner">
@@ -189,7 +189,7 @@ function setLabel(val,ary) {
         ctx.fillStyle="#9c27b0"
         ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
         ctx.fillStyle="#222222"
-        ctx.font="700 60px Montserrat"
+        ctx.font="700 55px Montserrat"
         ctx.textAlign="left"
         ctx.fillText("日本語版8values", 20, 90)
         ctx.font="45px Montserrat"
@@ -206,7 +206,7 @@ function setLabel(val,ary) {
         if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
 
-        ctx.font="300 30px Montserrat"
+        ctx.font="300 25px Montserrat"
         ctx.fillText("8values-jp.github.io", 780, 60)
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
