@@ -65,7 +65,7 @@ li {
     text-indent: 16pt;
 }
 a {
-    color: #eeeeee;
+    color: #bbbbbb;
     font-family: inherit;
 }
 img.center {
@@ -79,7 +79,7 @@ img.center {
     font-family: 'M PLUS 1p', sans-serif;
     border: none;
     border-radius: 8pt;
-    color: #444444;
+    color: #eeeeee;
     padding: 8pt;
     width: 50%;
     min-width: 500pt;
@@ -95,7 +95,7 @@ img.center {
     font-family: 'M PLUS 1p', sans-serif;
     border: none;
     border-radius: 8pt;
-    color: #444444;
+    color: #eeeeee;
     padding: 8pt;
     width: 10%;
     min-width: 100pt;
