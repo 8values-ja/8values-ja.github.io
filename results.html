@@ -130,12 +130,12 @@ function setLabel(val,ary) {
         dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
         if (dist < ideodist) {
             ideology = ideologies[i].name
-		ideology_eng = ideologies[i].name_english
+	    ideology_eng = ideologies[i].name_english
             ideodist = dist
         }
     }
     document.getElementById("ideology-label").innerHTML = ideology
-	document.getElementById("ideology-label_eng").innerHTML = ideology_eng
+//document.getElementById("ideology-label_eng").innerHTML = ideology_eng
 
 	
 
