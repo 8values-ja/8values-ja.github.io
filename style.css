@@ -16,8 +16,8 @@ body {
 p {
     color: #444444;
     font-family: 'M PLUS 1p', sans-serif;
-    font-size: 16pt;
-    line-height: 1;
+    font-size: 20pt;
+    line-height: 1.2;
     margin: 4pt;
 }
 p.value-description {
@@ -35,7 +35,7 @@ p.question {
     background-color: #eeeeee;
     padding: 16pt;
     border-radius: 16pt;
-    font-size: 36pt;
+    font-size: 25pt;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@ p.question {
 h1 {
     color: #222222;
     font-family: 'M PLUS 1p', sans-serif;
-    font-size: 72pt;
+    font-size: 55pt;
     text-align: center;
     line-height: 72pt;
     margin-top: 0pt;
@@ -54,9 +54,9 @@ h1 {
 h2 {
     color: #333333;
     font-family: 'M PLUS 1p', sans-serif;
-    font-size: 36pt;
+    font-size: 25pt;
     line-height: 36pt;
-    margin-top: 12pt;
+    margin-top: 24pt;
     margin-bottom: 0pt;
 }
 li {
