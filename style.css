@@ -4,7 +4,6 @@ html {
 }
 body {
     width: 80%;
-    max-width: 700px;
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
@@ -19,12 +18,11 @@ p {
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 20pt;
     line-height: 1.2;
-    margin-top: 0pt,
-    margin-left: 40pt;
+    margin-left: 2em;
 }
 p.value-description {
     text-indent: -16pt;
-    margin-left: 80pt;
+    margin-left: 3em;
 }
 p.question {
     margin: 16pt auto;
@@ -57,8 +55,7 @@ h2 {
     color: #333333;
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 25pt;
-    line-height: 36pt;
-    margin-top: 24pt;
+    margin-top: 25pt;
     margin-bottom: 0pt;
 }
 li {
