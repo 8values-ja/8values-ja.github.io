@@ -40,7 +40,7 @@ ideologies = [
         }
     },
     {
-	"name": "デ・レオン主義
+	"name": "デ・レオン主義",
         "original": "De Leonis",
         "stats": {
             "econ": 100,
