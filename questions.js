@@ -180,7 +180,7 @@ questions = [
         }
     },
     {
-        "question": "国家主権を維持するのは重要なことだ。"
+        "question": "国家主権を維持するのは重要なことだ。",
 "orig_question": "It is important to maintain our national sovereignty.",
         "effect": {
             "econ": 0,
@@ -470,7 +470,7 @@ questions = [
         }
     },
     {
-        "question": 
+        "question":  "教会などの宗教団体も、他の団体と同様の制度に基づき課税されるべきだ。",
 "orig_question": "Churches should be taxed the same way other institutions are taxed.",
         "effect": {
             "econ": 5,
@@ -480,7 +480,7 @@ questions = [
         }
     },
     {
-        "question":  "教会などの宗教団体も、他の団体と同様の制度に基づき課税されるべきだ。",
+        "question":  "現在、気候変動はわれわれの生活様式に対する最大の危機の一つだ。",
 "orig_question": "Climate change is currently one of the greatest threats to our way of life.",
         "effect": {
             "econ": 0,
@@ -650,7 +650,7 @@ questions = [
         }
     },
     {
-        "question": 
+        "question":  "遺伝子操作は、ヒトにも用いる場合も含め、有益な技術だ。",
 "orig_question": "Genetic modification is a force for good, even on humans.",
         "effect": {
             "econ": 0,
@@ -660,7 +660,7 @@ questions = [
         }
     },
     {
-        "question": "遺伝子操作は、ヒトにも用いる場合も含め、有益な技術だ。",
+        "question": "国境を開放し、自由に移民できるようにするべきだ。",
 "orig_question": "We should open our borders to immigration.",
         "effect": {
             "econ": 0,
