@@ -30,7 +30,7 @@ questions = [
         }
     },
     {
-        "question": "全国民への福祉を保証するよりも、収支を合った予算を成立させるほうが大切だ",
+        "question": "全国民への福祉を保証するよりも、収支の合った予算を成立させるほうが良い",
         "original": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
         "effect": {
             "econ": -10,
