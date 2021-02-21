@@ -79,8 +79,8 @@ a {
 img.center {
     display: block;
     margin: 1em auto;
-    width: 50%;
-    min-width: 500pt;
+    width: 70%;
+    min-width: 350pt;
 }
 .button {
     background-color: #2196f3;
@@ -90,7 +90,7 @@ img.center {
     color: #eeeeee;
     padding: 8pt;
     width: 50%;
-    min-width: 500pt;
+    min-width: 350pt;
     text-align: center;
     text-decoration: none;
     display: block;
