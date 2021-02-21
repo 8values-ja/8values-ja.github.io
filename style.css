@@ -31,12 +31,12 @@ p.question {
     font-family: 'M PLUS 1p', sans-serif;
     font-weight: normal;
     width: 70%;
-    min-width: 500pt;
+    min-width: 350pt;
     min-height: 144pt;
     background-color: #eeeeee;
     padding: 16pt;
     border-radius: 16pt;
-    font-size: 25pt;
+    font-size: 22pt;
     display: flex;
     justify-content: center;
     align-items: center;
