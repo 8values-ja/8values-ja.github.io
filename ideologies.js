@@ -250,7 +250,7 @@ ideologies = [
         }
     },
     {   
-	"name": "技術官僚制主義",
+	"name": "技術官僚主義",
         "original": "Technocracy",
         "stats": {
             "econ": 60,
