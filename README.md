@@ -1,6 +1,6 @@
 # 8values-ja.github.io
 
-<a href="https://8values-ja.github.io/index.html" target="_blank">日本語版8values</a>sは、8つの価値基準に基づき政治思想を診断するテスト<a href="https://8values.github.io/index.html" target="_blank">8values</a>を翻訳・ローカライズしたものです。現在、公式版も多言語対応を視野に入れて開発が続けられていますが、あまり進展が思わしくないのが現状です。公式版が日本語対応し次第、こちらのプロジェクトは凍結ないし削除する予定です。</p>
+<a href="https://8values-ja.github.io/index.html" target="_blank">日本語版8values</a>は、8つの価値基準に基づき政治思想を診断するテスト<a href="https://8values.github.io/index.html" target="_blank">8values</a>を翻訳・ローカライズしたものです。現在、公式版も多言語対応を視野に入れて開発が続けられていますが、あまり進展が思わしくないのが現状です。公式版が日本語対応し次第、こちらのプロジェクトは凍結ないし削除する予定です。</p>
 <p>8values-ja(日本語版8values) is a translation/localisation of <a href="https://8values.github.io/index.html" target="_blank">8values</a>. We are planning to delete 8values-ja when (if?) the official localisation becomes available.
   
  # LICENSE
