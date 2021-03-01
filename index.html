@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:300,400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
 <title>日本語版8values</title>
 <link rel="icon" type="icon/png" href="icon.png">
 <link rel="shortcut icon" type="icon/png" href="icon.png">
 <meta charset="utf-8">
-<meta http-equiv="content-language" content="ja">
 <meta name="description" content="質問に答えることで、あなたの価値観や似た立場の政治思想を知ることができる診断テストです。">
+<meta name="keyword" content="8values, 日本, 政治診断, 価値観診断, 思想診断,　ポリティカルコンパス">
 </head>
 
 <body>
@@ -25,7 +24,7 @@
     <h1>日本語版8values</h1>
 <hr>
 <button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">診断をはじめる</button>
-<img src="values.svg" class="center"></img>
+<img src="values.svg" class="center" alt="the 8 values">
 
 <h2>8valuesとは？</h2>
     <p>8valuesとは、あなたの政治思想や立場を8種類の価値基準を用いて分析する診断テストです。表示される各文に対してどう考えるか、<b>「つよく同意する」</b>から<b>「まったく同意しない」</b>の5つの選択肢より答えていただきます。質問は、各「主軸」に対応するよう順に提示されます。選択に応じてスコアがつけられ、最後まで回答すると、それぞれの価値観について取り得る最大スコアを100％とした確率が表示されます。正直にお答えください！質問は、全部で<b><u><span id="numOfQuestions"></span>問</u></b>あり、通常10分ほどでおわります。</p>
@@ -46,15 +45,15 @@
     <p>結果には、上記8種類の価値観に対する分析に加えて、あなたに最も近い政治思想も表示されます。ただし、各軸の結果に比べて政治思想診断はやや精度が低いため、紹介程度にお考えください。真面目に受け止めすぎないでね！</p>
 
 <h2>結果が気に入らん！！</h2>
-    <p>¯<span style="font-family: Arial;">\</span>_(ツ)_/¯<br/>改善に役立つご批判やご提案がありましたら、<a href="https://github.com/8values-ja/8values-ja.github.io" target="_blank">GitHub</a>にてご連絡ください。</p>
+    <p>¯<span style="font-family: Arial;">\</span>_(ツ)_/¯<br/>改善に役立つご批判やご提案がありましたら、<a href="https://github.com/8values-ja/8values-ja.github.io">GitHub</a>にてご連絡ください。</p>
 
 <h2>日本語版について (About 8values-ja)</h2>
-    <p>日本語版8valuesは<a href="https://8values.github.io/index.html" target="_blank">8values</a>を翻訳・ローカライズしたものです。現在、公式版も多言語対応を視野に入れて開発が続けられていますが、あまり進展が思わしくないのが現状です。公式版が日本語対応し次第、こちらのプロジェクトは凍結ないし削除する予定です。日本語版について意見や提案等ございましたら、どうぞご遠慮なく<a href="https://github.com/8values-ja/8values-ja.github.io" target="_blank">Github</a>にご参加ください。<a href="https://github.com/8values/8values.github.io"　target="_blank">本家8values</a>への協力もよろしくおねがいします。</p>
+    <p>日本語版8valuesは<a href="https://8values.github.io/index.html">8values</a>を翻訳・ローカライズしたものです。現在、公式版も多言語対応を視野に入れて開発が続けられていますが、あまり進展が思わしくないのが現状です。公式版が日本語対応し次第、こちらのプロジェクトは凍結ないし削除する予定です。日本語版について意見や提案等ございましたら、どうぞご遠慮なく<a href="https://github.com/8values-ja/8values-ja.github.io">Github</a>にご参加ください。<a href="https://github.com/8values/8values.github.io">本家8values</a>への協力もよろしくおねがいします。</p>
     <p>公式版8valueはMIT Licenseに基づいてに公開されており、「無制限」に「ソフトウェアの複製を使用、複写、変更、結合、掲載、頒布、サブライセンス、および/または販売する」権利が認められています。日本語版8valuesも、同MIT License下にあります。</p>
-    <p>8values-ja(「日本語版8values」) is a translation/localisation of <a href="https://8values.github.io/index.html" target="_blank">8values</a>. We are planning to delete 8values-ja when (if?) the official localisation becomes available. 8values is licensed under the MIT License, which permits "without restriction" the rights to "use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software". 8values-ja is also under the same license. Suggestions and other feedbacks are welcome at our <a href="https://github.com/8values-ja/8values-ja.github.io" target="_blank">Github page</a>.</p>
+    <p>8values-ja(「日本語版8values」) is a translation/localisation of <a href="https://8values.github.io/index.html">8values</a>. We are planning to delete 8values-ja when (if?) the official localisation becomes available. 8values is licensed under the MIT License, which permits "without restriction" the rights to "use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software". 8values-ja is also under the same license. Suggestions and other feedbacks are welcome at our <a href="https://github.com/8values-ja/8values-ja.github.io">Github page</a>.</p>
   
 <!-- This is the script for the page itself -->
-<script type="application/javascript"src="questions.js"></script>
+<script type="application/javascript" src="questions.js"></script>
 <script type="text/javascript">
     document.getElementById("numOfQuestions").innerHTML = questions.length;
 </script>
