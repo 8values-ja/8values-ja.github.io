@@ -69,7 +69,6 @@ h1 {
     text-align: center;
     margin-top: 0.5em;
     margin-bottom: 1em;
-    text-decoration: underline;
 }
 
 h1.title {
@@ -83,7 +82,8 @@ h2 {
     font-size: 1.5em;
     line-height: 1em;
     margin-top: 2em;
-    margin-bottom: 0pt;
+    margin-bottom: 1rem;
+   text-decoration: underline;
 }
 h3 {
     font-size: 2em;
