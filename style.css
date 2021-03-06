@@ -119,6 +119,7 @@ img.center {
     margin: -4px auto;
 }
 div.axis {
+    width: 100%;
 }
 
 div.result_desc {
