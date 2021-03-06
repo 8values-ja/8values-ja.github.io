@@ -124,6 +124,13 @@ div.axis {
     align-items: center;
     justify-content: center;
 }
+div.result_desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    min-width: 350pt;
+}
 div.bar {
     height: 36pt;
     line-height: 36pt;
@@ -146,6 +153,7 @@ div.text-wrapper {
     color: #222222;
     display: inline-block;
 }
+
 div.equality {
     background-color: #f44336;
     text-align: left;
@@ -189,14 +197,7 @@ div.tradition {
 span.weight-300 {
     font-weight: 300;
 }
-span.result_desc {
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    min-width: 350pt;
-}
+
 #banner {
     border-color: #444444;
     border-style: solid;
