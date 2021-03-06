@@ -12,7 +12,7 @@ body {
     border-left-style: solid;
     border-right-style: solid;
     border-width: 20px;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'M PLUS 1p', sans-serif;
     color: #444444;
 }
@@ -20,13 +20,18 @@ body {
     body {
 	width: 80%;
 	padding: 2em;
-        font-size: 20px;
     }
 }
 	
 p {
+    font-size: 20px;
     line-height: 1.5;
     margin:0 1em 0.5em 1em;
+}
+@media screen and (min-width: 650px) {
+    p{
+	margin:0 2em 0.5em 1.5em;
+    }
 }
 
 p.value-description {
@@ -34,30 +39,24 @@ p.value-description {
     margin-left: 2em;
     line-height: 1.2;
 }
-@media screen and (min-width: 650px) {
-    p{
-	margin:0 2em 0.5em 1.5em;
-    }
-    p.value-description {
-        margin-left: 3em;
-    }	
-}
+
 
 p.question {
     margin: 16pt auto;
     font-weight: normal;
     width: 70%;
-    min-width: 300pt;
+    min-width: 300px;
     min-height: 144pt;
     background-color: #eeeeee;
     padding: 16pt;
     border-radius: 16pt;
-    font-size: 22pt;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
 }
+
 h1 {
     color: #444444;
     font-family: 'M PLUS 1p', sans-serif;
