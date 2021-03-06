@@ -133,6 +133,7 @@ div.result_desc {
 }
 
 @media (max-width: 400px) {
+    div.axis,
     div.result_desc {
         display: block;
         width:100%
