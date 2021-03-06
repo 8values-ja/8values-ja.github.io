@@ -125,19 +125,19 @@ div.axis {
     align-items: center;
     justify-content: center;
 }
-div.result_img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
 div.result_desc {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    max-width: 500pt;
+    width: 50%;
 }
+
+@media (max-width: 400px) {
+    div.result_desc {
+        width:100%
+    }
+}
+
 div.bar {
     height: 36pt;
     line-height: 36pt;
