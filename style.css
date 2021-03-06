@@ -189,6 +189,11 @@ div.tradition {
 span.weight-300 {
     font-weight: 300;
 }
+span.result_desc {
+    display: inline-block;
+    width: 50%;
+    min-width: 350pt;
+}
 #banner {
     border-color: #444444;
     border-style: solid;
