@@ -118,13 +118,8 @@ img.center {
     cursor: not-allowed;
     margin: -4px auto;
 }
-div.axis {
-    width: 100%;
-    padding: 10%;
-    align-items: center;
-    justify-content: center;
-}
 
+div.axis,
 div.result_desc {
     width: 100%;
     display: flex;
