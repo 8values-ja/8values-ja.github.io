@@ -87,24 +87,30 @@ h2 {
 }
 
 h2.center { 
-  font-size: 3em;
+  font-size: 1.5em;
   text-align: center;
 }
 
 h3 {
-    font-size: 2em;
-    margin-top: 1.5em;
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
     text-align: center;
 }
 
 h3.ideology{
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: left;
+    font-weight: bold;
 }
 
 @media screen and (min-width: 650px) {
+    h2.center { 
+       font-size: 3em;
+   }
+
     h3 {
-        font-size: 1em;
+        font-size: 2em;
         margin-top: 2em;
         text-align: center;
     }
@@ -196,6 +202,7 @@ div.result_desc {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 1em;
 }
 
 @media screen and (min-width: 1300px) {
