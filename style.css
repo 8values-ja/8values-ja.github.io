@@ -120,18 +120,23 @@ img.center {
 }
 div.axis {
     width: 100%;
-    min-width: 350pt;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
+div.result_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 div.result_desc {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    min-width: 500pt;
+    width: 100%;
+    max-width: 500pt;
 }
 div.bar {
     height: 36pt;
