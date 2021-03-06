@@ -4,14 +4,14 @@ html {
 }
 body {
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
     min-height: calc(100vh - 4em);
-    padding: 1em;
+    padding: 1.5em;
     background-color: #dddddd;
     border-color: #eeeeee;
     border-left-style: solid;
     border-right-style: solid;
-    border-width: 20px;
+    border-width: 1em;
     font-size: 20px;
     font-family: 'M PLUS 1p', sans-serif;
     color: #444444;
@@ -19,7 +19,8 @@ body {
 @media screen and (min-width: 650px) {
     body {
 	width: 80%;
-	padding: 2em;
+   	padding: 2em;
+        border-width: 2em;
     }
 }
 	
