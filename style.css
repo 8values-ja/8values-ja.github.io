@@ -224,6 +224,34 @@ div.result_desc {
 		padding: 1em;
 	}
 }
+.result_desc_more .more, .result_desc_more.show .dots {
+  display: none
+}
+
+.result_desc_more.show .more {
+  display: inline
+}
+
+.result_desc_more a {
+  cursor: pointer;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+@media screen and (min-width: 1300px) {
+	.result_desc_more .more, .result_desc_more.show .dots {
+		  display: inline
+	}
+
+	.result_desc_more.show .more {
+		  display: none
+	}
+
+	.result_desc_more a {
+		  display: none;
+	}
+}
 
 div.bar {
     height: 1em;
@@ -337,3 +365,4 @@ span.weight-300 {
     width: 90%;
     max-width: 650px;
 }
+
