@@ -234,13 +234,20 @@ div.result_desc {
 }
 
 .result_desc_more a {
-    cursor: pointer;
+    background-color: #2196f3;
+    font-family: 'M PLUS 1p', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: #eeeeee;
+    padding: 8pt;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    text-decoration: none;
     display: block;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-    font-weight: bold;
-    border: 2px;
-    background-color: black;
+    font-size: 1.5em;
+    margin: -2px auto;
+    cursor: pointer;
 }
 @media screen and (min-width: 1300px) {
 	.result_desc_more .more, .result_desc_more.show .dots {
