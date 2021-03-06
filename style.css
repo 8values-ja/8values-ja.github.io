@@ -125,6 +125,7 @@ div.axis {
     align-items: center;
     justify-content: center;
 }
+
 div.result_desc {
     display: flex;
     align-items: center;
@@ -132,8 +133,7 @@ div.result_desc {
     width: 50%;
 }
 
-@media (max-width: 400px) {
-    div.axis,
+@media screen and (max-width: 400px) {
     div.result_desc {
         display: block;
         width:100%
