@@ -296,7 +296,7 @@ div.tradition {
 #img-might,
 #img-progress,
 #img-tradition {
-	     height:3.5em;
+	     height: 70px;
 	}
 @media screen and (min-width: 650px) {
 	div.bar {
@@ -304,7 +304,6 @@ div.tradition {
 	    line-height: 36pt;
 	}
 	div.text-wrapper {
-	    font-family: 'M PLUS 1p', sans-serif;
 	    font-size: 36pt;
 	    line-height: 36pt;
 	}
@@ -316,8 +315,8 @@ div.tradition {
 	#img-peace,
 	#img-might,
 	#img-progress,
-	#img-tradition{
-	     height:128pt;
+	#img-tradition {
+	     height:128px;
 	}
 }
 
