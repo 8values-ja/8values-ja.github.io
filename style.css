@@ -131,7 +131,7 @@ div.result_desc {
     align-items: center;
     justify-content: center;
     width: 50%;
-    min-width: 350pt;
+    min-width: 500pt;
 }
 div.bar {
     height: 36pt;
