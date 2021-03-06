@@ -121,22 +121,23 @@ img.center {
 div.axis {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
 div.result_desc {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 480px) {
+    div.axis {
+        flex-wrap: wrap;
+    }
     div.result_desc {
-        display: block;
-        width:100%
+        width: 50%;
     }
 }
 
