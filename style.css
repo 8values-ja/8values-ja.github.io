@@ -27,8 +27,6 @@ p.value-description {
 }
 p.question {
     margin: 16pt auto;
-    color: #444444;
-    font-family: 'M PLUS 1p', sans-serif;
     font-weight: normal;
     width: 70%;
     min-width: 350pt;
@@ -41,9 +39,6 @@ p.question {
     justify-content: center;
     align-items: center;
     text-align: left;
-}
-.select {
-    font-size: 20pt;
 }
 h1 {
     color: #444444;
@@ -63,10 +58,7 @@ h2 {
     margin-bottom: 0pt;
 }
 h2.results {
-    color: #444444;
-    font-family: 'M PLUS 1p', sans-serif;
     font-size: 40pt;
-    line-height: 1em;
     margin-top: 25pt;
     margin-bottom: 5pt;
 }
@@ -77,6 +69,9 @@ li {
 a {
     color: #888;
     font-family: inherit;
+}
+option {
+    font-size: 20pt;
 }
 img.center {
     display: block;
