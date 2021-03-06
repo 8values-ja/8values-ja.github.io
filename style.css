@@ -3,16 +3,21 @@ html {
     padding: 0px;
 }
 body {
-    width: 80%;
+    width: 90%;
     min-height: calc(100vh - 4em);
     margin: 0 auto;
-    padding: 2em;
+    padding: 1em;
     background-color: #dddddd;
     border-color: #eeeeee;
     border-left-style: solid;
     border-right-style: solid;
     border-width: 20px;
 }
+@media screen and (min-width: 650px) {
+	width: 80%
+	padding: 2em;
+}
+	
 p {
     color: #444444;
     font-family: 'M PLUS 1p', sans-serif;
@@ -127,7 +132,7 @@ div.result_desc {
     justify-content: center;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1300px) {
 	div.axis {
 		width: 100%;
 		display: flex;
