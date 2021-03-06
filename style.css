@@ -14,8 +14,10 @@ body {
     border-width: 20px;
 }
 @media screen and (min-width: 650px) {
-	width: 80%
-	padding: 2em;
+	body {
+		width: 80%;
+		padding: 2em;
+	}
 }
 	
 p {
