@@ -67,8 +67,6 @@ h1, h2, h3 {
 h1 {
     font-size: 2em;
     text-align: center;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
 }
 
 h1.top {
@@ -87,6 +85,8 @@ h2 {
 }
 
 h2.center { 
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   font-size: 1.5em;
   text-align: center;
 }
@@ -94,7 +94,7 @@ h2.center {
 h3 {
     font-size: 1.5em;
     margin-top: 1em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0;
     text-align: center;
 }
 
@@ -112,7 +112,8 @@ h3.ideology{
 
     h3 {
         font-size: 2em;
-        margin-top: 2em;
+        margin-top: 1.5em;
+	margin-bottom: 0.5em
         text-align: center;
     }
 	
