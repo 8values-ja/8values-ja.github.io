@@ -119,11 +119,11 @@ img.center {
     margin: -4px auto;
 }
 div.axis {
-    width: 80%;
+    width: 100%;
 }
 
 div.result_desc {
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
