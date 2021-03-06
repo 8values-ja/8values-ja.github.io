@@ -4,7 +4,7 @@ html {
 }
 body {
     margin: 0 auto;
-    width: 95%;
+    width: 100%;
     min-height: calc(100vh - 4em);
     padding: 1em;
     background-color: #dddddd;
