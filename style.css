@@ -94,12 +94,13 @@ h2.center {
 h3 {
     font-size: 1.5em;
     margin-top: 2em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     text-align: center;
 }
 
 h3.ideology{
     font-size: 1em;
+    margin-bottom: 0.5em;
     text-align: left;
     font-weight: bold;
 }
@@ -114,6 +115,9 @@ h3.ideology{
         margin-top: 2em;
         text-align: center;
     }
+	
+    h3.ideology{
+    font-size: 1.5em;
 }
 
 
@@ -284,14 +288,14 @@ div.tradition {
     text-align: left;
     border-right-style: solid;
 }
-img#equality, 
-img#wealth,
-img#liberty,
-img#authority,
-img#peace,
-img#might,
-img#progress,
-img#tradition, {
+.img-equality, 
+.img-wealth,
+.img-liberty,
+.img-authority,
+.img-peace,
+.img-might,
+.img-progress,
+.img-tradition {
 	     height:3.5em;
 	}
 @media screen and (min-width: 650px) {
@@ -318,14 +322,14 @@ img#tradition, {
 	    display: inline-block;
 	}
 
-	#equality, 
-	#wealth,
-	#liberty,
-	#authority,
-	#peace,
-	#might,
-	#progress,
-	#tradition, {
+	.img-equality, 
+	.img-wealth,
+	.img-liberty,
+	.img-authority,
+	.img-peace,
+	.img-might,
+	.img-progress,
+	.img-tradition{
 	     height:128pt;
 	}
 }
