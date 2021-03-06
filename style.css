@@ -227,7 +227,7 @@ div.result_desc {
 
 div.bar {
     height: 1em;
-    line-height: 1pt;
+    line-height: 1em;
     padding: 8pt;
     margin-top: 4pt;
     margin-bottom: 4pt;
@@ -288,14 +288,14 @@ div.tradition {
     text-align: left;
     border-right-style: solid;
 }
-.img-equality, 
-.img-wealth,
-.img-liberty,
-.img-authority,
-.img-peace,
-.img-might,
-.img-progress,
-.img-tradition {
+#img-equality, 
+#img-wealth,
+#img-liberty,
+#img-authority,
+#img-peace,
+#img-might,
+#img-progress,
+#img-tradition {
 	     height:3.5em;
 	}
 @media screen and (min-width: 650px) {
@@ -322,14 +322,14 @@ div.tradition {
 	    display: inline-block;
 	}
 
-	.img-equality, 
-	.img-wealth,
-	.img-liberty,
-	.img-authority,
-	.img-peace,
-	.img-might,
-	.img-progress,
-	.img-tradition{
+	#img-equality, 
+	#img-wealth,
+	#img-liberty,
+	#img-authority,
+	#img-peace,
+	#img-might,
+	#img-progress,
+	#img-tradition{
 	     height:128pt;
 	}
 }
