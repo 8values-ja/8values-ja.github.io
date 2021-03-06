@@ -127,6 +127,15 @@ div.result_desc {
     justify-content: center;
 }
 
+@media screen and (min-width: 1000px) {
+
+	div.result_desc {
+		width: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
 div.bar {
     height: 36pt;
     line-height: 36pt;
