@@ -113,10 +113,27 @@ img.center {
     text-align: center;
     text-decoration: none;
     display: block;
+    font-size: 1.5em;
+    margin: -2px auto;
+    cursor: pointer;
+}
+.start {
+    background-color: #2196f3;
+    font-family: 'M PLUS 1p', sans-serif;
+    border: none;
+    border-radius: 8pt;
+    color: #eeeeee;
+    padding: 8pt;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
     font-size: 2em;
     margin: -2px auto;
     cursor: pointer;
 }
+
 .small_button, .small_button_off {
     background-color: #333;
     font-family: 'M PLUS 1p', sans-serif;
