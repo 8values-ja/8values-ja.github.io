@@ -45,7 +45,7 @@ p.question {
     margin: 16pt auto;
     font-weight: normal;
     width: 70%;
-    min-width: 350pt;
+    min-width: 300pt;
     min-height: 144pt;
     background-color: #eeeeee;
     padding: 16pt;
@@ -93,7 +93,7 @@ img.center {
     display: block;
     margin: 1em auto;
     width: 70%;
-    min-width: 350pt;
+    min-width: 300pt;
 }
 .button {
     background-color: #2196f3;
@@ -103,7 +103,7 @@ img.center {
     color: #eeeeee;
     padding: 8pt;
     width: 50%;
-    min-width: 350pt;
+    min-width: 300pt;
     text-align: center;
     text-decoration: none;
     display: block;
