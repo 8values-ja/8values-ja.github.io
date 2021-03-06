@@ -122,6 +122,7 @@ div.axis {
     width: 100%;
     min-width: 350pt;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
