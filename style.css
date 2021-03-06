@@ -191,6 +191,9 @@ span.weight-300 {
 }
 span.result_desc {
     display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
     min-width: 350pt;
 }
