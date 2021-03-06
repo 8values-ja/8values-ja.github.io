@@ -122,16 +122,15 @@ img.center {
 div.result_desc {
     width: 100%;
     display: flex;
+    float: none;
     align-items: center;
     justify-content: center;
 }
 
 @media screen and (min-width: 480px) {
-	div.axis {
-		width: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
+	div.result_desc {
+		width: 50%;
+		float:none;
 	}
 }
 
