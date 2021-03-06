@@ -106,9 +106,10 @@ h3.ideology{
 }
 
 @media screen and (min-width: 650px) {
+   
     h2.center { 
        font-size: 3em;
-   }
+    }
 
     h3 {
         font-size: 2em;
@@ -150,7 +151,7 @@ img.center {
     border: none;
     border-radius: 8pt;
     color: #eeeeee;
-    padding: 8pt;
+    padding: 0.25em;
     width: 90%;
     max-width: 600px;
     text-align: center;
@@ -159,8 +160,15 @@ img.center {
     font-size: 1.5em;
     margin: -2px auto;
     cursor: pointer;
-    line-height: 1.2em;
 }
+
+@media screen and (min-width: 650px) {
+    .button  {
+	padding: 8pt;
+    }
+}
+	
+
 .start {
     background-color: #2196f3;
     font-family: 'M PLUS 1p', sans-serif;
