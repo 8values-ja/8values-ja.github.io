@@ -120,7 +120,7 @@ img.center {
 }
 div.axis {
     width: 100%;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -129,7 +129,6 @@ div.result_desc {
     align-items: center;
     justify-content: center;
     width: 50%;
-    min-width: 350pt;
 }
 div.bar {
     height: 36pt;
