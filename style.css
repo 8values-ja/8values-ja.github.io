@@ -119,18 +119,20 @@ img.center {
     margin: -4px auto;
 }
 
+
 div.result_desc {
     width: 100%;
     display: flex;
-    float: none;
     align-items: center;
     justify-content: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
 	div.result_desc {
 		width: 50%;
-		float:none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 }
 
