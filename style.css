@@ -130,7 +130,7 @@ a {
     color: #888;
     font-family: inherit;
 }
-option {
+select, option {
     font-size: 20pt;
 }
 
