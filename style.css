@@ -43,7 +43,7 @@ p.question {
     text-align: left;
 }
 select {
-    20pt
+    font-size: 20pt;
 }
 h1 {
     color: #444444;
