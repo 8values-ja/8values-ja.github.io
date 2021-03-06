@@ -90,12 +90,17 @@ a {
 option {
     font-size: 20pt;
 }
+
+
+
 img.center {
     display: block;
     margin: 1em auto;
-    width: 70%;
-    min-width: 300pt;
+    width: 80%;
+    max-width: 500px
 }
+	
+
 .button {
     background-color: #2196f3;
     font-family: 'M PLUS 1p', sans-serif;
@@ -103,8 +108,8 @@ img.center {
     border-radius: 8pt;
     color: #eeeeee;
     padding: 8pt;
-    width: 50%;
-    min-width: 300pt;
+    width: 80%;
+    max-width: 500px;
     text-align: center;
     text-decoration: none;
     display: block;
