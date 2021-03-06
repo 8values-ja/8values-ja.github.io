@@ -41,7 +41,9 @@ p.question {
     justify-content: center;
     align-items: center;
     text-align: left;
-
+}
+select {
+    20pt
 }
 h1 {
     color: #444444;
