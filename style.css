@@ -3,9 +3,9 @@ html {
     padding: 0px;
 }
 body {
+    margin: 0 auto;
     width: 90%;
     min-height: calc(100vh - 4em);
-    margin: 0 auto;
     padding: 1em;
     background-color: #dddddd;
     border-color: #eeeeee;
@@ -14,10 +14,10 @@ body {
     border-width: 20px;
 }
 @media screen and (min-width: 650px) {
-	body {
-		width: 80%;
-		padding: 2em;
-	}
+    body {
+	width: 80%;
+	padding: 2em;
+    }
 }
 	
 p {
@@ -25,13 +25,22 @@ p {
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 20pt;
     line-height: 1.5;
-    margin:0 2em 0.5em 1.5em;
+    margin:0 1em 0.5em 1em;
 }
 p.value-description {
     text-indent: -1em;
-    margin-left: 3em;
+    margin-left: 2em;
     line-height: 1.2;
 }
+@media screen and (min-width: 650px) {
+    p{
+	margin:0 2em 0.5em 1.5em;
+    }
+    p.value-description {
+        margin-left: 3em;
+    }	
+}
+
 p.question {
     margin: 16pt auto;
     font-weight: normal;
