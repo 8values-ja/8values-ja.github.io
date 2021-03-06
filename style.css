@@ -132,14 +132,6 @@ div.result_desc {
     justify-content: center;
 }
 
-@media screen and (min-width: 480px) {
-    div.axis {
-        flex-wrap: wrap;
-    }
-    div.result_desc {
-        width: 50%;
-    }
-}
 
 div.bar {
     height: 36pt;
