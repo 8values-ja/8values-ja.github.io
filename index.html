@@ -16,5 +16,54 @@
 
 <body>
 
+ <!--GitHub Corner-->
+<a href="https://github.com/8values-ja/8values-ja.github.io" class="github-corner" aria-label="View source on Github">
+<svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+ 
+ <!--Language selector-->    
+<select name="language" onChange="location.href=value;">
+  <option value="#">日本語/Japanese</option>
+  <option value="https://8values.github.io/index.html">English (original)</option>
+  <option value="https://8values-ko.github.io/index.html">한국</option>
+  <option value="https://8values-ru.github.io/index.html">русский</option>
+  <option value="https://rechterkreis.de/8values/index.html">Deutsch</option>
+</select>
+    
+    <h1>日本語版8values</h1>
+<hr>
+<button class="start" onclick="location.href='instructions.html';">診断する！</button>
+<img src="values.svg" class="center" alt="the 8 values">
+
+<h2>8valuesとは？</h2>
+    <p>8valuesとは、あなたの政治思想や立場を8種類の価値基準を用いて分析する診断テストです。表示される各文に対してどの程度同意するか、5つの選択肢より答えていただきます。質問は、各「主軸」に対応するよう順に提示されます。選択に応じてスコアがつけられ、最後まで回答すると、それぞれの価値観について取り得る最大スコアを100％とした確率が表示されます。正直にお答えください！質問は、全部で<b><u><span id="numOfQuestions"></span>問</u></b>あり、通常10分ほどでおわります。<br/><b>結果・回答は一切保存されませんので、ご安心ください。</b></p>
+  
+<h2>「8種の価値基準」について</h2>
+    <p>この診断では、対極にある2つの価値観同士を端に配置した4種の独立した「軸」（経済、外交、国家、社会）を用いて、あなたの政治思想をあらわします。価値基準は、それぞれ次の通りです：</p>
+    <p class="value-description"><b style="color:#d32f2f;">平等</b>（「経済」軸）<br/>「平等」のスコアが高い方は、富が公平に分配される経済を求めています。累進課税や公共事業を支持する傾向にあり、特にスコアが高い場合は社会主義に賛同することもあります。</p>
+    <p class="value-description"><b style="color:#00796b;">市場</b>（「経済」軸）<br/>「市場」のスコアが高い方は、急速な発展を重視する経済を求めています。税の引き下げ、私営化の促進、制限緩和を支持する傾向にあります。特にスコアが高い場合は自由放任主義に賛同することもあります。</p>
+    <p class="value-description"><b style="color:#f57c00;">国力</b>（「外交」軸）<br/>「国力」のスコアが高い方は、愛国心が強く、ナショナリズム的傾向があります。他国に対して強硬な姿勢を取る外交や軍事力の強化に賛同する傾向があり、特にスコアが高い場合は領土拡大を支持することもあります。</p>
+    <p class="value-description"><b style="color:#0288d1;">世界</b>（「外交」軸）<br/>「世界」のスコアが高い方は、コスモポリタニズムやグローバリズムに賛同する傾向があります。ハト派政策や国際協調を支持する傾向があり、特にスコアが高い場合は世界政府ないしは世界規模の共和政体を求めることもあります。</p>
+    <p class="value-description"><b style="color:#fbc02d;">自由</b>（「国家」軸）<br/>「自由」のスコアが高い方は、自由や自律をつよく求めています。民主主義に賛同し、国家が民衆の生活に干渉することを拒否する傾向にあります。なお、経済的自由についての立場は、この軸に反映されません。</p>
+    <p class="value-description"><b style="color:#303f9f;">権威</b>（「国家」軸）<br/>「権威」のスコアが高い方は、より強い権力を持った国家を求めています。 国家が民衆の生活を統制したり監視したりすることを求める傾向にあります。特にスコアが高い場合、検閲や独裁を支持することもあります。</p>
+    <p class="value-description"><b style="color:#689f38;">伝統</b>（「社会」軸）<br/>「伝統」のスコアが高い方は、伝統的価値観や道徳観に従うことを求めています。信仰心が強い人も多く、現状維持、ないしは復古主義的な立場を取る傾向があります。</p>
+    <p class="value-description"><b style="color:#7b1fa2;">革新</b>（「社会」軸）<br/>「革新」のスコアが高い方は、社会改良や合理主義に賛同します。 現世主義者ないしは無神論者であることも多く、積極的な環境保護や科学および技術の発展を好意的に受け止める傾向があります。</p>
+
+<h2>「もっとも近い思想」について</h2>
+    <p>結果には、上記8種類の価値観に対する分析に加えて、あなたに最も近い政治思想も表示されます。ただし、各軸の結果に比べて政治思想診断はやや精度が低いため、紹介程度にお考えください。真面目に受け止めすぎないでね！</p>
+
+<h2>結果が気に入らん！！</h2>
+    <p>¯<span style="font-family: Arial;">\</span>_(ツ)_/¯<br/>改善に役立つご批判やご提案がありましたら、<a href="https://github.com/8values-ja/8values-ja.github.io">GitHub</a>にてご連絡ください。</p>
+
+<h2>日本語版について (About 8values-ja)</h2>
+    <p>日本語版8valuesは<a href="https://8values.github.io/index.html">8values</a>を翻訳・ローカライズしたものです。現在、公式版も多言語対応を視野に入れて開発が続けられていますが、あまり進展が思わしくないのが現状です。公式版が日本語対応し次第、こちらのプロジェクトは凍結ないし削除する予定です。日本語版について意見や提案等ございましたら、どうぞご遠慮なく<a href="https://github.com/8values-ja/8values-ja.github.io">Github</a>にご参加ください。<a href="https://github.com/8values/8values.github.io">本家8values</a>への協力もよろしくおねがいします。</p>
+    <p>公式版8valueはMIT Licenseに基づいてに公開されており、「無制限」に「ソフトウェアの複製を使用、複写、変更、結合、掲載、頒布、サブライセンス、および/または販売する」権利が認められています。日本語版8valuesも、同MIT License下にあります。</p>
+    <p>8values-ja(「日本語版8values」) is a translation/localisation of <a href="https://8values.github.io/index.html">8values</a>. We are planning to delete 8values-ja when (if?) the official localisation becomes available. 8values is licensed under the MIT License, which permits "without restriction" the rights to "use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software". 8values-ja is also under the same license. Suggestions and other feedbacks are welcome at our <a href="https://github.com/8values-ja/8values-ja.github.io">Github page</a>.</p>
+  
+<!-- This is the script for the page itself -->
+<script type="application/javascript" src="questions.js"></script>
+<script type="text/javascript">
+    document.getElementById("numOfQuestions").innerHTML = questions.length;
+</script>
+
 </body>
 </html>
