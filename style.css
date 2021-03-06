@@ -58,18 +58,29 @@ p.question {
     text-align: left;
 }
 
-h1 {
+
+h1, h2, h3 {
     color: #444444;
     font-family: 'M PLUS 1p', sans-serif;
-    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2.5em;
     text-align: center;
-    line-height: 72pt;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+    text-decoration: underline;
+}
+
+h1.title {
+    font-size: 1.5em;
+    line-height: 200%;
     margin-top: 0pt;
     margin-bottom: 0pt;
+    text-decoration: none;
 }
+
 h2 {
-    color: #444444;
-    font-family: 'M PLUS 1p', sans-serif;
     font-size: 1.5em;
     line-height: 1em;
     margin-top: 2em;
@@ -80,6 +91,7 @@ h2.results {
     margin-top: 25pt;
     margin-bottom: 5pt;
 }
+
 li {
     font-size: 16pt;
     text-indent: 16pt;
