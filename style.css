@@ -302,24 +302,11 @@ div.tradition {
 	div.bar {
 	    height: 36pt;
 	    line-height: 36pt;
-	    padding: 8pt;
-	    margin-top: 4pt;
-	    margin-bottom: 4pt;
-	    border-width: 4px;
-	    border-right-width: 1px;
-	    border-top-style: solid;
-	    border-bottom-style: solid;
-	    border-color: #222222;
-	    background-color: #eeeeee;
-	    display: block;
-	    width: 50%;
 	}
 	div.text-wrapper {
 	    font-family: 'M PLUS 1p', sans-serif;
 	    font-size: 36pt;
 	    line-height: 36pt;
-	    color: #222222;
-	    display: inline-block;
 	}
 
 	#img-equality, 
