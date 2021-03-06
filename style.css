@@ -4,7 +4,7 @@ html {
 }
 body {
     margin: 0 auto;
-    width: 90%;
+    width: 95%;
     min-height: calc(100vh - 4em);
     padding: 1em;
     background-color: #dddddd;
@@ -13,6 +13,8 @@ body {
     border-right-style: solid;
     border-width: 20px;
     font-size: 16px;
+    font-family: 'M PLUS 1p', sans-serif;
+    color: #444444;
 }
 @media screen and (min-width: 650px) {
     body {
@@ -23,12 +25,10 @@ body {
 }
 	
 p {
-    color: #444444;
-    font-family: 'M PLUS 1p', sans-serif;
-    font-size: 20pt;
     line-height: 1.5;
     margin:0 1em 0.5em 1em;
 }
+
 p.value-description {
     text-indent: -1em;
     margin-left: 2em;
