@@ -79,22 +79,31 @@ h1.top {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1em;
-    margin-top: 2em;
-    margin-bottom: 1rem;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
     text-decoration: underline;
 }
 
-h2.center {  
+h2.center { 
+  font-size: 3em;
   text-align: center;
 }
 
 h3 {
-    font-size: 1.5em;
-    margin-top: 3em;
-    margin-bottom: 5pt;
+    font-size: 1em;
+    margin-top: 1.5em;
+    text-align: center;
 }
+
+@media screen and (min-width: 650px) {
+    h3 {
+        font-size: 1em;
+        margin-top: 2em;
+        text-align: center;
+}
+
 
 li {
     font-size: 16pt;
