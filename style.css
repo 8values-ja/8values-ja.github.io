@@ -123,6 +123,7 @@ li {
 a {
     color: #888;
     font-family: inherit;
+    font-weight: bold;
 }
 select, option {
     font-size: 18px;
