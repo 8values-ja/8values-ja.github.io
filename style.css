@@ -42,7 +42,7 @@ p.question {
     align-items: center;
     text-align: left;
 }
-select {
+.select {
     font-size: 20pt;
 }
 h1 {
