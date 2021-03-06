@@ -65,26 +65,31 @@ h1, h2, h3 {
 }
 
 h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+h1.top {
     font-size: 2.5em;
     text-align: center;
     margin-top: 0.5em;
     margin-bottom: 1em;
 }
 
-h1.title {
-    font-size: 1.5em;
-    margin-top: 0pt;
-    margin-bottom: 0pt;
-    text-decoration: none;
-}
-
 h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 1em;
     margin-top: 2em;
     margin-bottom: 1rem;
-   text-decoration: underline;
+    text-decoration: underline;
 }
+
+h2.center {  
+  text-align: center;
+}
+
 h3 {
     font-size: 2em;
     margin-top: 25pt;
