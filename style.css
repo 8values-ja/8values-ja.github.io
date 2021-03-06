@@ -158,6 +158,7 @@ img.center {
     font-size: 1.5em;
     margin: -2px auto;
     cursor: pointer;
+    line-height: 1.2em;
 }
 .start {
     background-color: #2196f3;
@@ -174,6 +175,7 @@ img.center {
     font-size: 2em;
     margin: -2px auto;
     cursor: pointer;
+    line-height: 1.2em;
 }
 
 .small_button, .small_button_off {
@@ -188,9 +190,10 @@ img.center {
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 18pt;
+    font-size: 0.9em;
     margin: -2px auto;
     cursor: pointer;
+    line-height: 1.2em;
 }
 .small_button_off {
     background-color: #ddd;
@@ -198,6 +201,7 @@ img.center {
     border: 2px solid #888;
     cursor: not-allowed;
     margin: -4px auto;
+    line-height: 1.2em;
 }
 
 
@@ -227,7 +231,7 @@ div.result_desc {
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 1.5em;
+    font-size: 1em;
     margin: -2px auto;
     cursor: pointer;
 }
