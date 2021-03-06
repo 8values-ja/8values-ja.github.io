@@ -21,7 +21,11 @@
 <h1>日本語版8values</h1>
 <hr>
 
-<h2>診断結果</h2>
+<h2 class="center">診断結果</h2>
+<h3 class="results">あなたにもっとも近い思想は..</h3>
+	<p><b><span class="weight-300" id="ideology-label"></span></b>です</p>
+	<p>英語名：<b><span id="ideology-label_en"></span></b>。<span class="weight-300" id="ideology-desc"></span></p>
+	<p>＊「あなたにもっとも近い思想」機能は開発中のため、紹介程度にお考えください。</p>
 
 <h3>「経済」軸：<span class="weight-300" id="economic-label"></span></h3>
 <div class="axis">
@@ -74,14 +78,10 @@
 		<p><b style="color:#689f38;">「伝統」</b>のスコアが高い方は、伝統的価値観や道徳観に従うことを求めています。信仰心が強い人も多く、現状維持、ないしは復古主義的な立場を取る傾向があります。<b style="color:#7b1fa2;">「革新」</b>のスコアが高い方は、社会改良や合理主義に賛同します。 現世主義者ないしは無神論者であることも多く、積極的な環境保護や科学および技術の発展を好意的に受け止める傾向があります。</p>
 	</div>
 </div>
-
-<h3 class="results">あなたにもっとも近い思想：<span class="weight-300" id="ideology-label"></span></h3>
-	<p>英語名：<b><span id="ideology-label_en"></span></b>。<span class="weight-300" id="ideology-desc"></span></p>
-	<p>＊「あなたにもっとも近い思想」機能は開発中のため、精度があまり高くありません。紹介程度にお考えください。URLをコピー、または下の画像を保存することで診断結果をシェアできます。</p>
 <hr/>
-
-<img src="" id="banner"><button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">戻る</button> <br>
-
+<p>URLをコピー、または下の画像を保存することで診断結果をシェアできます。</p>
+<img src="診断結果" id="banner">
+<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">戻る</button> <br>
 <script>
     function getQueryVariable(variable)
     {
@@ -250,4 +250,6 @@ function setLabel(val,ary) {
         document.getElementById("banner").src = c.toDataURL();
     }
     </script>
+	
+
 </body>
