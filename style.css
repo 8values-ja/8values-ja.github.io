@@ -224,20 +224,23 @@ div.result_desc {
 		padding: 1em;
 	}
 }
+
 .result_desc_more .more, .result_desc_more.show .dots {
-  display: none
+    display: none
 }
 
 .result_desc_more.show .more {
-  display: inline
+    display: inline
 }
 
 .result_desc_more a {
-  cursor: pointer;
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-  font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    border: 2px;
+    background-color: black;
 }
 @media screen and (min-width: 1300px) {
 	.result_desc_more .more, .result_desc_more.show .dots {
