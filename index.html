@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>日本語版8values</title>
-<link rel='stylesheet' href='style.css' type='text/css'>
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:300,400,700" >
-<link rel="icon" type="icon/png" href="icon.png">
-<link rel="shortcut icon" type="icon/png" href="icon.png">
-<meta name="description" content="質問に答えることで、あなたの価値観や似た立場の政治思想を知ることができる診断テストです。">
-<meta name="keyword" content="8values, 日本, 政治診断, 価値観診断, 思想診断, ポリティカルコンパス">
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>日本語版8values</title>
+    <meta name="description" content="質問に答えることで、あなたの価値観や似た立場の政治思想を知ることができる診断テストです。">
+    <meta name="keyword" content="8values, 日本, 政治診断, 価値観診断, 思想診断, ポリティカルコンパス">
+    
+    <meta property="og:site_name" content="日本語版8values">
+    <meta property="og:title" content="日本語版8values">
+    <meta property="og:description" content="質問に答えることで、あなたの価値観や似た立場の政治思想を知ることができる診断テストです。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://8values-ja.github.io/values.svg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://8values-ja.github.io/index.html">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href='reset.css' rel='stylesheet' type='text/css'>
+    <link href='style.css' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/png" href="favicon/icon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="favicon/icon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon/icon-192x192.png">
+    <link rel="apple-touch-icon" type="image/png" href="favicon/apple-touch-icon-180x180.png">
 </head>
 
 <body>
@@ -23,7 +37,7 @@
 <h1 class="top">日本語版8values</h1>
   
  <!--Language selector-->    
-<select name="language" onChange="location.href=value;">
+<select name="language" id="langPicker" onChange="location.href=value;">
   <option value="#">日本語/Japanese</option>
   <option value="https://8values.github.io/index.html">English (original)</option>
   <option value="https://8values-ko.github.io/index.html">한국</option>
@@ -31,22 +45,40 @@
   <option value="https://rechterkreis.de/8values/index.html">Deutsch</option>
 </select>
 <hr>
-<button class="start" onclick="location.href='instructions.html';">診断する！</button>
+<button class="button start" onclick="location.href='instructions.html';">診断する！</button>
 <img src="values.svg" class="center" alt="the 8 values">
+<div class="index_wrapper">
+    <div class="section-wrapper">
+        <h2>8valuesとは？</h2>
+        <div class="text-wrapper">
+            <p>8valuesとは、あなたの政治思想や立場を8種類の価値基準を用いて分析する診断テストです。表示される各文に対してどの程度同意するか、5つの選択肢より答えていただきます。選択に応じてスコアがつけられ、最後まで回答すると、それぞれの価値観について取り得る最大値を100％とした値が表示されます。質問は、各「主軸」に対応するよう順に提示されます。正直にお答えください！質問は、全部で<b><u><span id="numOfQuestions"></span>問</u></b>あり、通常10分ほどでおわります。<br/><br/>
+            <b>結果・回答は一切保存されませんので、ご安心ください。</b></p>
+        </div>
+    </div>
+    <div class="section-wrapper">
+        <h2>結果について</h2>
+        <div class="text-wrapper">
+            <p><a href="results.html?e=10.0&d=20.0&g=30.0&s=40.0">診断結果の例</a><br/>8valuesでは名前の通り8種の価値基準を用います。対極にある2つの価値観同士を端に配置した4つの「軸」（<b>経済</b>、<b>外交</b>、<b>国家</b>、<b>伝統</b>）を用いて結果は表されます。それぞれの軸と価値観の説明は<a href="about.html">こちら</a>をご覧ください（「診断結果」ページでもご確認いただけます）。<br/><br/>また、結果には、上記8種類の価値観に対する分析に加えて、現在登録されている<span id="numOfIdeologies"></span>種の思想のうちあなたに最も近いものも表示されます。ただし、各軸の結果に比べて政治思想診断はやや精度が低いため、紹介程度にお考えください。真面目に受け止めすぎないでね！</p>
+        </div>
+    </div>
+</div>    
+<div class="index_wrapper">
+    <div class="section-wrapper">
+        <h2>結果が気に入らん！！</h2>
+        <div class="text-wrapper">
+            <p>¯<span style="font-family: Arial;">\</span>_(ツ)_/¯<br/>改善に役立つご批判やご提案がありましたら、<a href="https://github.com/8values-ja/8values-ja.github.io">GitHub</a>にご連絡ください。</p>
+        </div>
+    </div>
+    <div class="section-wrapper">
+        <h2>もっと詳しく</h2>
+        <div class="text-wrapper">
+            <p><a href="about.html">こちら</a>をご覧ください。</p>
+        </div>
+    </div>
+</div>    
+<HR>
+<button class="button start" onclick="location.href='instructions.html';">診断する！</button>
 
-<h2>8valuesとは？</h2>
-    <p>8valuesとは、あなたの政治思想や立場を8種類の価値基準を用いて分析する診断テストです。表示される各文に対してどの程度同意するか、5つの選択肢より答えていただきます。選択に応じてスコアがつけられ、最後まで回答すると、それぞれの価値観について取り得る最大値を100％とした値が表示されます。質問は、各「主軸」に対応するよう順に提示されます。正直にお答えください！質問は、全部で<b><u><span id="numOfQuestions"></span>問</u></b>あり、通常10分ほどでおわります。<br/><b>結果・回答は一切保存されませんので、ご安心ください。</b></p>
-
-<h2>結果について</h2>
-    <p><a href="https://8values-ja.github.io/results.html?e=50.0&d=50.0&g=50.0&s=50.0">診断結果の例</a><br>8valuesでは名前の通り8種の価値基準を用います。対極にある2つの価値観同士を端に配置した4つの「軸」（<b>経済</b>、<b>外交</b>、<b>国家</b>、<b>伝統</b>）を用いて結果は表されます。それぞれの軸と価値観の説明は<a href="about.html">こちら</a>をご覧ください（「診断結果」ページでもご確認いただけます）。<br>
-     また、結果には、上記8種類の価値観に対する分析に加えて、現在登録されている<span id="numOfIdeologies"></span>種の思想のうちあなたに最も近いものも表示されます。ただし、各軸の結果に比べて政治思想診断はやや精度が低いため、紹介程度にお考えください。真面目に受け止めすぎないでね！</p>
-
-<h2>結果が気に入らん！！</h2>
-    <p>¯<span style="font-family: Arial;">\</span>_(ツ)_/¯<br/>改善に役立つご批判やご提案がありましたら、<a href="https://github.com/8values-ja/8values-ja.github.io">GitHub</a>にてご連絡ください。</p>
- 
- <h2>About</h2>
-    <p><a href="about.html">こちら</a>をご覧ください。</p>
-  
 <!-- This is the script for the page itself -->
 <script type="application/javascript" src="questions.js"></script>
 <script type="text/javascript">
