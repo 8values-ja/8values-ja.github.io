@@ -201,8 +201,9 @@ function setLabel(val,ary) {
         const tweetTextBefore = "わたしに一番近い政治思想は「";
         const tweetTextAfter = "」だよ！あなたは？";
         const concatenated_str = tweetTextBefore + ideology + tweetTextAfter;
-        const con_encoded = encodeURIComponent(concatenated_str);    
-        document.getElementById('twitter-share-button').innerHTML = '<a href=\"https://twitter.com/share?url=' + current_url_encoded + '&text=' + con_encoded + '&hashtags=8values,8valuesJa\">Tweet!</a>';
+        const con_encoded = encodeURIComponent(concatenated_str);
+        const ide_encoded = encodeURIComponent(ideology);
+        document.getElementById('twitter-share-button').innerHTML = '<a href=\"https://twitter.com/share?url=' + current_url_encoded + '&text=' + con_encoded + '&hashtags=8values,8valuesJa,'+ide_encoded+'\">Tweet!</a>';
 
 //Copy Result URL
     function copyResultURL(){
