@@ -311,7 +311,7 @@ function setLabel(val,ary) {
         document.getElementById("banner").src = c.toDataURL();
         
         document.getElementById("btnDownload").addEventListener('click', function(){
-            this.href = c.toDataURL();
+            this.href = c.toDataURL("image/png");
         }); 
     }
     </script>
