@@ -102,7 +102,7 @@
         <p>もっと詳しく知りたい？左派（翼）のあなたは<a href='https://leftvalues.github.io/'>LeftValues</a>、右派（翼）のあなたは<a href='https://rightvaluestest.github.io'>RightValues</a>へ（ともに日本語対応）！また、フェミニズムに興味のある方は、<a href='https://femscale.github.io/'>FemScale</a>も参考にしてください。<br><br>本診断の結果は、URLをコピー、または下の画像を保存することでシェアできます（スクショも大歓迎です）。</p>
     </div>
     <div class="share">
-        <a id="btnDownload" download="8values-ja_results.png" href="" target="_blank">Download</a>
+        <a id="btnDownload" href="" download="8values-ja_results.png" target="_blank">Download</a>
         <p id="twitter-share-button"><a href="https://twitter.com/share?url='https://8values-ja.github.io'&text='すぐできる政治思想診断！あなたの思想をチェックしよう！'&hashtags=8values,8valuesJa">Tweet!</a></p><input id="copyTarget" type="text" value="https://8values-ja.github.io" readonly>
         <button id="btnCopyurl" onclick="copyToClipboard()">Copy</button>
     </div>
@@ -308,10 +308,10 @@ function setLabel(val,ary) {
         ctx.fillText("「国家」: " + document.getElementById("state-label").innerHTML, 400, 415)
         ctx.fillText("「社会」: " + document.getElementById("society-label").innerHTML, 400, 535)
 
-        document.getElementById("banner").src = c.toDataURL();
+        document.getElementById("banner").src = c.toDataURL("image/png").replace("image/png", "image/octet-stream");
         
         document.getElementById("btnDownload").addEventListener('click', function(){
-            this.href = c.toDataURL("image/png");
+            this.href = c.toDataURL("image/png").replace("image/png", "image/octet-stream");
         }); 
     }
     </script>
