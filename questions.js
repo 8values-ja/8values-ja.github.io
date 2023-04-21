@@ -550,7 +550,7 @@ questions = [
         }
     },
     {
-        "question": "同性間の婚姻は合法化であるべきだ",
+        "question": "同性間の婚姻は合法であるべきだ",
 "original": "Same-sex marriage should be legal.",
         "effect": {
             "econ": 0,
